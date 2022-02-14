@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+body {
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    color: black;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+}
+
+.container h1 {
+    display: inline-block;
+    font-size: 29px;
+    margin-bottom: 13px;
+    padding: 10px 0;
+    border-bottom: 5px solid black;
+}
+
+.box {
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin: 10px 0px;
+}
+
+.box input {
+    background: none;
+    width: 75%;
+    margin: 10px 0px;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 19px;
+}
+
+.box i {
+    width: 25px;
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    width: 22%;
+    margin: 10px 0;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 17px;
+    outline: none;
+    color: black;
+    background: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: black;
+    background: rgb(236, 227, 227);
+    font-weight: bold;
+}
